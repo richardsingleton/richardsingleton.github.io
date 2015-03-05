@@ -1,0 +1,75 @@
+.container{
+	width:720px;
+	margin: 0 auto;
+}
+
+header{
+	width:720px;
+}
+
+nav{
+	background-color: #3e7ca5; /*match color of picture*/
+
+}
+
+nav ul {
+	text-align: center;
+	padding: 5px; /*removes default 40px padding from list item*/
+}
+
+nav ul li{
+	list-style-type: none; /*removes bullets*/
+	display: inline;
+	margin-left: 25px;
+}
+
+a:link{
+	text-decoration: none; /*removes underline*/
+	color: #fff;
+}
+
+a:visited{
+	color:black; /*changes visited link color*/
+}
+
+a:hover{
+	color:#999; /*changes color when mouse over*/
+}
+
+a:active{
+	color:#CC3300;/*changes link color when mouse click*/
+}
+
+.top{
+	border: 2px solid #000000;
+	width: 360px;
+	height: 700px;
+	float: left;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.bottom{
+	border: 2px solid #000000;
+	width: 360px;
+	height: 200px;
+	float: left;
+	padding: 10px;
+}
+
+aside{
+	width: 300px;
+	height: 600px;
+	background-color: #3e7ca5;
+	float: right;
+	padding: 10px;
+}
+
+footer{
+	clear: both;
+}
+
+p{
+	text-align: justify;
+}
+
