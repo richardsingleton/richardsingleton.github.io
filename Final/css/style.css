@@ -1,0 +1,258 @@
+body{
+	margin:0 auto;
+}
+
+header{
+	min-width: 500px;
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	background-color: gray;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.logo{
+	padding-top: 10px;
+	padding-left: 20px;
+	display: inline-block;
+	float: left;
+}
+
+.logo ul li{
+	padding-right: 20px;
+}
+
+.logo a{
+/*	position: absolute;
+*/	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px black;
+	color: #FFF000;
+}
+
+.logo span{
+	font-size: 15px;
+}
+
+
+nav{
+	float: right;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 10px;
+	text-shadow: 2px 2px 2px black;
+
+}
+
+nav ul li a{
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	color: #FFF000;
+	font-size: 15px;
+}
+
+
+
+
+
+/*Home Home Home Home Home Home Home Home */
+/*Home Home Home Home Home Home Home Home */
+/*Home Home Home Home Home Home Home Home */
+/*Home Home Home Home Home Home Home Home */
+
+.main_photo{
+	height: 500px;
+	background-image: url(img/Automotive2.jpg);
+	background-size: cover;
+}
+
+.main_photo p{
+	padding: 40px;
+	text-align: justify;
+	color: #FFF000;
+	font-family: 'Raleway', sans-serif;
+	line-height: 2.25;
+	text-shadow: 2px 2px 2px black;
+}
+
+.main_photo p span{
+	color: #FFF000;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+}
+
+.main_photo p:hover{
+/*	color: red;
+*/}
+
+/*Services Services Services Services Services Services*/
+/*Services Services Services Services Services Services*/
+/*Services Services Services Services Services Services*/
+/*Services Services Services Services Services Services*/
+
+
+.services_photo{
+	top: 20px;
+	clear: both;
+	height: 500px;
+	text-shadow: 4px 4px 4px black;
+	background-image: url(img/engineering.jpg);
+	background-size: cover;
+}
+
+.services_photo ul{
+	padding: 40px;
+}
+
+main ul li{
+	padding: 10px;
+	text-align: justify;
+	color: #FFF000;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.25;
+}
+
+.services_photo p{
+	font-family: 'Raleway', sans-serif;
+	color: #FFF000;
+	padding-left: 30px;
+}
+
+main ul li:hover{
+/*	color: red;
+*/}
+
+.services_photo p:hover{
+/*	color: red;
+*/}
+
+
+/*Projects Projects Projects Projects Projects */
+/*Projects Projects Projects Projects Projects */
+/*Projects Projects Projects Projects Projects */
+/*Projects Projects Projects Projects Projects */
+
+.photo_slider{
+  margin:0px auto;
+  width:1000px;
+  height:500px;
+  overflow:hidden;
+  border:10px;
+  position:relative;
+}
+
+.photo{
+  position:absolute;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-animation:photos 32s infinite; /*32s is the total animation time*/
+  -moz-animation:photos 32s infinite; /*photos is the name of the animation*/
+  -ms-animation:photos 32s infinite;
+  -o-animation:photos 32s infinite;
+  animation: photos 32s infinite;
+  opacity:0;  /*starting value*/
+}
+
+/*CHROME OPERA SAFARI MOZILLA*/
+@-webkit-keyframes photos{   /*CHROME*/
+  25%{opacity:1;} /*intermediate value or "from" value*/
+  50%{opacity:0;} /*final value or "to" value*/
+} 
+
+@-moz-keyframes photos{   /*MOZILLA*/
+  25%{opacity:1;}
+  50%{opacity:0;}
+}
+
+@-ms-keyframes photos{   /*IE*/
+  25%{opacity:1;}
+  50%{opacity:0;}
+}
+
+@-o-keyframes photos{   /*OPERA*/
+  25%{opacity:1;}
+  50%{opacity:0;}
+}
+
+
+img:nth-child(4){-webkit-animation-delay:0s;} /*delay determined from # of pictures and total cycle time*/
+img:nth-child(3){-webkit-animation-delay:8s;}
+img:nth-child(2){-webkit-animation-delay:16s;}
+img:nth-child(1){-webkit-animation-delay:24s;}
+
+img:nth-child(4){-moz-animation-delay:0s;}
+img:nth-child(3){-moz-animation-delay:8s;}
+img:nth-child(2){-moz-animation-delay:16s;}
+img:nth-child(1){-moz-animation-delay:24s;}
+
+img:nth-child(4){-ms-animation-delay:0s;}
+img:nth-child(3){-ms-animation-delay:8s;}
+img:nth-child(2){-ms-animation-delay:16s;}
+img:nth-child(1){-ms-animation-delay:24s;}
+
+img:nth-child(4){-o-animation-delay:0s;}
+img:nth-child(3){-o-animation-delay:8s;}
+img:nth-child(2){-o-animation-delay:16s;}
+img:nth-child(1){-o-animation-delay:24s;}
+
+img:nth-child(4){animation-delay:0s;}
+img:nth-child(3){animation-delay:8s;}
+img:nth-child(2){animation-delay:16s;}
+img:nth-child(1){animation-delay:24s;}
+
+
+
+
+/*Footer Footer Footer Footer Footer Footer */
+/*Footer Footer Footer Footer Footer Footer */
+/*Footer Footer Footer Footer Footer Footer */
+/*Footer Footer Footer Footer Footer Footer */
+
+footer{
+	clear: both;
+
+}
+
+footer p{
+	font-family: 'Raleway', sans-serif;
+	padding-left: 20px;
+	text-align: left;
+	display: inline-block;
+}
+
+footer a{
+	display: inline-eblock;
+	padding-left: 50px;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+}
+
+.social {
+	float: right;
+	padding-right: 30px;
+
+}
+
+.social a{
+	display: inline-block;
+	padding: 20px;
+}
+
+.social a:hover{
+	background-color: blue;
+	color: white;
+}
